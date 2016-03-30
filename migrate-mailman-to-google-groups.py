@@ -115,7 +115,7 @@ def main():
 
         message['Message-ID'] = msg['Message-ID']
         message['Subject'] = msg['Subject']
-        message['From'] = msg.get_from()
+        message['From'] = msg['From']
         message['To'] = groupId
         message['Date'] = msg['Date']
 
